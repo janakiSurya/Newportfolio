@@ -1,0 +1,19 @@
+[
+    {
+      "role": "Software Developer",
+      "organisation": "Synophic Worldwide",
+      "startDate": "June, 2020",
+      "endDate": "July, 2022",
+      "experiences": ["Worked on Anuvaad.ai", "Improved the website's performance and enhancing the user interface"],
+      "imageSrc": "assets/history/synophic.png"
+    },
+    {
+      "role": "Web Developer",
+      "organisation": "California State University, Northridge",
+      "startDate": "Aug, 2022",
+      "endDate": "May, 2024",
+      "experiences": ["Led a team of 3 to create an interactive campus event calendar", "Improved user experience and increased page views."],
+      "imageSrc": "assets/history/CSUN.png"
+    }
+  ]
+  

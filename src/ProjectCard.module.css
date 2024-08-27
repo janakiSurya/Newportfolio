@@ -1,0 +1,109 @@
+@import "./vars.css";
+
+/* Container for the entire section */
+.container {
+  padding: 20px;
+  text-align: center; /* Center the heading */
+}
+
+/* Title styling */
+.title {
+  color: var(--color-text);
+  font-size: 30px; /* Adjust as needed */
+  font-weight: 700;
+  letter-spacing: 1.75px;
+  text-transform: uppercase;
+  text-align: left; /* Align text to the left */
+  margin-left: 10%; /* Center the heading container */
+  margin-right: auto; /* Center the heading container */
+  max-width: 100%; /* Ensure the heading is within the container width */
+}
+
+/* Wrapper for project cards */
+.projects {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap; /* Allows wrapping for responsive design */
+  gap: 20px; /* Adjust gap between cards as needed */
+  justify-content: center; /* Center the cards horizontally */
+}
+
+/* Styling for each project card */
+.card {
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  background: linear-gradient(180deg, #576cbc 0%, #132a53 100%);
+  box-shadow: 0 16px 14px 0 #04152d;
+  padding: 18px 24px;
+  max-width: 345px; /* Adjust the max-width if needed */
+  width: 100%; /* Ensure the card takes full width in its container */
+  box-sizing: border-box;
+  align-items: center; /* Center items horizontally */
+}
+
+/* Ensures the image fits within the card and is properly aligned */
+.image {
+  width: 100%; /* Ensures image fits within the card */
+  height: auto; /* Maintain aspect ratio */
+  border-radius: 10px; /* Matches card border-radius */
+  margin-bottom: 20px;
+}
+
+/* Title within the card */
+.cardTitle {
+  font-size: 20px; /* Adjust size as needed */
+  font-weight: 700;
+  margin-bottom: 10px; /* Spacing below the title */
+  text-align: center; /* Center align the title */
+}
+
+/* Description within the card */
+.description {
+  font-size: 18px; /* Adjust size as needed */
+  font-weight: 400;
+  margin-bottom: 10px; /* Spacing below the description */
+  text-align: center; /* Center align the description */
+}
+
+/* Skills list styling */
+.skills {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 8px;
+  list-style: none;
+  padding: 0;
+  justify-content: center; /* Center align skills list */
+}
+
+/* Each skill */
+.skill {
+  font-size: 16px; /* Adjust size as needed */
+  font-weight: 400;
+  border-radius: 50px;
+  background: var(--color-dark);
+  padding: 5px 15px;
+  color: var(--color-text);
+}
+
+/* Links styling */
+.links {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  width: 100%; /* Ensure links take full width */
+}
+
+/* Each link */
+.link {
+  text-decoration: none;
+  color: var(--color-text);
+  font-size: 16px; /* Adjust size as needed */
+  font-weight: 600;
+  border-radius: 50px;
+  background: var(--color-primary);
+  padding: 10px 20px;
+  text-align: center;
+}

@@ -1,0 +1,13 @@
+:root {
+  /* Colours */
+  --color-text: #f0f0f0; /* Slightly lighter text color for better readability */
+  --color-primary: #576cbc; /* Keep primary color for consistency */
+  --color-secondary: #19376d; /* Keep secondary color for consistency */
+  --color-dark: #0b2447; /* Darker color for accents */
+  --color-bg: 
+    
+    rgba(25, 55, 109, 0.6);/* Slightly lighter dark background to complement the gradient */
+
+  /* Fonts */
+  --font-roboto: "Roboto";
+}

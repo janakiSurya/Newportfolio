@@ -1,0 +1,27 @@
+[
+    {
+      "title": "E.commerce Demo",
+      "imageSrc": "assets/projects/project1.png",
+      "description": "This is a project made to learn the redux by building an app.",
+      "skills": ["React", "Redux", "CSS" ,"JavaScript"],
+      "demo": "https://e-commerce-green-zeta.vercel.app/",
+      "source": "https://github.com/janakiSurya/E-commerce.git"
+    },
+    {
+      "title": "Movie review Prediction",
+      "imageSrc": "assets/projects/project3.png",
+      "description": "This project was made to analysis movie tweets using Sentimental Analysis.",
+      "skills": ["Python", "SQL", "AFFIN", "VADAR","CNN","RNN"],
+      "demo": "https://www.example.com",
+      "source": "https://www.github.com"
+    },
+    {
+      "title": "Portfolio",
+      "imageSrc": "assets/projects/project2.png",
+      "description": "This is a project made to showcase my skills.",
+      "skills": ["React", "CSS", "JavaScript"],
+      "demo": "https://www.example.com",
+      "source": "https://www.github.com"
+    }
+  ]
+  
