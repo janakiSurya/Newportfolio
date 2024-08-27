@@ -17,10 +17,11 @@ export const Hero = () => {
         </a>
       </div>
       <img
-        src={getImageUrl("assets/hero/heroImage.png")} // Ensure path is relative to src/assets
-        alt="Ada's hero "
+        src="/assets/hero/heroImage.png" // Absolute path relative to public directory
+        alt="Surya hero"
         className={styles.heroImg}
       />
+
       <div className={styles.topBlur} />
       <div className={styles.bottomBlur} />
     </section>
