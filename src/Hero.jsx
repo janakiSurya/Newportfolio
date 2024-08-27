@@ -17,7 +17,7 @@ export const Hero = () => {
         </a>
       </div>
       <img
-        src="/assets/hero/heroImage 3.png" // Absolute path relative to public directory
+        src="/assets/hero/heroImage 1.png" // Absolute path relative to public directory
         alt="Surya hero"
         className={styles.heroImg}
       />
