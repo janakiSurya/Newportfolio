@@ -2,14 +2,15 @@
 
 /* Container for the entire section */
 .container {
+  margin-top: 100px;
   padding: 20px;
   text-align: center; /* Center the heading */
 }
 
 /* Title styling */
-.title {
+.title2 {
   color: var(--color-text);
-  font-size: 30px; /* Adjust as needed */
+  font-size: 35px; /* Increased font size */
   font-weight: 700;
   letter-spacing: 1.75px;
   text-transform: uppercase;
@@ -40,7 +41,7 @@
   width: 100%; /* Ensure the card takes full width in its container */
   box-sizing: border-box;
   align-items: center; /* Center items horizontally */
-  height: 500px; /* Ensure uniform height for cards */
+  min-height: 500px; /* Ensure uniform height for cards */
   display: flex;
   flex-direction: column;
   justify-content: space-between; /* Push content to fill the card */
@@ -59,19 +60,21 @@
 }
 
 /* Title within the card */
-.title {
-  font-size: 20px; /* Adjust size as needed */
+.card-title {
+  font-size: 22px; /* Slightly larger for better readability */
   font-weight: 700;
-  margin-bottom: 10px; /* Spacing below the title */
+  margin-bottom: 12px; /* Increased spacing below the title */
   text-align: center; /* Center align the title */
+  color: #f0f0f0; /* Light color for readability on dark background */
 }
 
 /* Description within the card */
 .description {
-  font-size: 18px; /* Adjust size as needed */
+  font-size: 16px; /* Slightly smaller for a better fit */
   font-weight: 400;
-  margin-bottom: 10px; /* Spacing below the description */
+  margin-bottom: 15px; /* Increased spacing below the description */
   text-align: center; /* Center align the description */
+  color: #e0e0e0; /* Slightly lighter color for readability */
   max-height: 80px; /* Limit height for scrollable content */
   overflow-y: auto; /* Scroll if content overflows */
   overflow-x: hidden; /* Hide horizontal overflow */
