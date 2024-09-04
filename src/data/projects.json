@@ -20,8 +20,8 @@
       "imageSrc": "assets/projects/project2.png",
       "description": "This is a project made to showcase my skills.",
       "skills": ["React", "CSS", "JavaScript"],
-      "demo": "https://www.example.com",
-      "source": "https://www.github.com"
+      "demo": "https://newportfolio-woad-omega.vercel.app/",
+      "source": "https://github.com/janakiSurya/Newportfolio.git"
     }
   ]
   
